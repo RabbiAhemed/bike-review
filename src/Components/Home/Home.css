@@ -1,0 +1,10 @@
+.title {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: aquamarine;
+}
+
+.image {
+    height: 300%;
+    width: 100%;
+}

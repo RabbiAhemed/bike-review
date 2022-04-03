@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "STEVE",
+        "image": "https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "review": "",
+        "rating": "4/5"
+    },
+    {
+        "id": 2,
+        "name": "ZACK",
+        "image": "https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "review": "",
+        "rating": "4.25/5"
+    },
+    {
+        "id": 3,
+        "name": "SMITH",
+        "image": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "review": "",
+        "rating": "4.5/5"
+    },
+    {
+        "id": 4,
+        "name": "JOHN",
+        "image": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        "review": "",
+        "rating": "5/5"
+    },
+    {
+        "id": 5,
+        "name": "RON",
+        "image": "https://images.unsplash.com/photo-1612386832713-dc731b936a72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdoaXRlJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "review": "",
+        "rating": "5/5"
+    },
+    {
+        "id": 6,
+        "name": "SETH",
+        "image": "https://images.unsplash.com/photo-1555583743-991174c11425?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdoaXRlJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "review": "",
+        "rating": "4/5"
+    },
+    {
+        "id": 7,
+        "name": "PETE",
+        "image": "https://images.unsplash.com/photo-1510773635541-5dbc9d940eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdoaXRlJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "review": "",
+        "rating": "4.5/5"
+    }
+]
