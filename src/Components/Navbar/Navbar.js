@@ -1,9 +1,8 @@
 import React from 'react';
-import './Header.css'
+import './Navbar.css'
 import { Link } from 'react-router-dom';
-import Home from '../Home/Home';
 
-const Header = () => {
+const Navbar = () => {
     return (
         <div>
             <nav className='navbar'>
@@ -17,4 +16,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
