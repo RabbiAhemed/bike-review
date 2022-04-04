@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const CustomerReview = (props) => {
     const navigate = useNavigate();
-    console.log(props);
+    // console.log(props);
     return (
         <div>
             <h1 className='text-2xl'>Customer Name</h1>
