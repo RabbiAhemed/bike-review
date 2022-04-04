@@ -9,7 +9,7 @@ const MyLineChart = () => {
     }, [])
     return (
         <LineChart width={800} height={400} data={data}>
-            <Line dataKey={"sell"} stroke="#9b59b6"></Line>
+            <Line dataKey={"sell"} stroke="#833471"></Line>
             <XAxis dataKey={"month"}></XAxis>
             <YAxis></YAxis>
             <Tooltip />

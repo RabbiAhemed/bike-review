@@ -1,23 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import CustomerReview from '../CustomerReview/CustomerReview';
-import Home from '../Home/Home';
+import useReview from '../customHook/useReview';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('reviewData.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReview();
     return (
-        <div>
-            <h3>This is Reviews</h3>
+        <div className='grid grid-cols-3 gap-4'>
+
             {
                 reviews.map(review => <Review key={review.id} review={review}></Review>)
-            }
-            {
-                reviews.slice(0, 3).map(review => <CustomerReview key={review.id} review={review}></CustomerReview>)
             }
         </div>
     );

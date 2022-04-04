@@ -1,0 +1,8 @@
+.review-container {
+    margin: 0 10%;
+    border: 2px seashell solid;
+    background-color: azure;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

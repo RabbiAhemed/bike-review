@@ -5,9 +5,9 @@ import MyLineChart from '../MyLineChart/MyLineChart';
 const DashBoard = () => {
     return (
         <div>
-            <h3>Monthwise Sell</h3>
+            <h3 className='text-center font-bold text-xl'>Monthwise Sell</h3>
             <MyLineChart></MyLineChart>
-            <h3>Investment Vs Revenue</h3>
+            <h3 className='text-center font-bold text-xl pt-4'>Investment Vs Revenue</h3>
             <MybarChart></MybarChart>
         </div>
     );
