@@ -1,5 +1,6 @@
-import { Tooltip } from 'bootstrap';
-import React, { useEffect, useState } from 'react';
+import { Tooltip } from 'recharts';
+import { useEffect, useState } from 'react';
+
 import { Bar, BarChart, CartesianGrid, Legend, XAxis, YAxis } from 'recharts';
 
 const MybarChart = () => {
@@ -11,7 +12,7 @@ const MybarChart = () => {
     }, [])
     return (
         <BarChart width={500}
-            height={300}
+            height={320}
             data={data}
             margin={{
                 top: 20,
@@ -27,7 +28,7 @@ const MybarChart = () => {
             <Bar dataKey="revenue" stackId="a" fill="#8884d8" />
             <Bar dataKey="investment" stackId="a" fill="#82ca9d" />
 
-
+            <Tooltip />
         </BarChart>
     );
 };

@@ -8,7 +8,7 @@ const MyLineChart = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <LineChart width={800} height={400} data={data}>
+        <LineChart width={600} height={300} data={data}>
             <Line dataKey={"sell"} stroke="#833471"></Line>
             <XAxis dataKey={"month"}></XAxis>
             <YAxis></YAxis>
